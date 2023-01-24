@@ -1,0 +1,3 @@
+!|Application|
+| title | lengthInMinutes | distributor | day1 | month1 | year1 | day2 | month2 | year2 | hasLector | hasDubbing | is3D | addMovie?|
+| tytul | 123 | dystrybutor | 12 | 3 | 2022 | 13 | 03 | 2022 | false | false | false | Dodano seans |

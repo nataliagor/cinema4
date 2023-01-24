@@ -1,0 +1,6 @@
+!include <SuiteAcceptanceTests.testyfitnessefixure.SetUp
+
+|Library|
+|echo fixture|
+|page driver|
+

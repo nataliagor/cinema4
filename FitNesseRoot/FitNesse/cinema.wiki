@@ -1,0 +1,5 @@
+!1 Zestaw testów ${PAGE NAME}
+!contents -R2 -g -p -f -h
+
+"testy dla kina"
+!path C:\Users\dell\Desktop\testy2\testy2\testy2\cinema\target\classes\

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>FitNesse.cinema.addMovieTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2023-01-24T21:55:04+01:00</date>
+    <runTimeInMillis>164</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;![Application]&lt;br/&gt;| title | lengthInMinutes | distributor | day1 | month1 | year1 | day2 | month2 | year2 | hasLector | hasDubbing | is3D | addMoive?&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;tytul &lt;span class="error"&gt;Could not invoke constructor for tytul[12]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;123&lt;/td&gt;
+		&lt;td&gt;dystrybutor&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;2022&lt;/td&gt;
+		&lt;td&gt;13&lt;/td&gt;
+		&lt;td&gt;03&lt;/td&gt;
+		&lt;td&gt;2022&lt;/td&gt;
+		&lt;td&gt;false&lt;/td&gt;
+		&lt;td&gt;false&lt;/td&gt;
+		&lt;td&gt;false&lt;/td&gt;
+		&lt;td&gt;Dodano seans&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>addMovieTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='tytul', args=[123, dystrybutor, 12, 3, 2022, 13, 03, 2022, false, false, false, Dodano seans]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Could not invoke constructor for tytul[12]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-15\bin\java" -cp C:\Users\dell\Desktop\testy2\testy2\testy2\cinema\target\classes\;lib/*.jar;C:\Users\dell\.m2\repository\org\fitnesse\fitnesse\20221219\fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>500</totalRunTimeInMillis>
+</testResults>
+

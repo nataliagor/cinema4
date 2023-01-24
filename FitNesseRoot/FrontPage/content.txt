@@ -1,0 +1,2 @@
+!1 [[cinema][FitNesse.cinema]]!
+!3 ''Testy dla kina''
